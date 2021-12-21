@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <title>Bili Shop</title>
+    <link rel="stylesheet" href="./respon.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+
+</head>
+<body>
+    <div class="grid nav-bar">
+        <div class="grid wide ">
+            <div class="nav-logo">
+                <a href="#">
+                    <img class="nav-logo-img" src="./img/logo.png" alt="Homie">
+                </a>
+            </div>
+            <div class="nav-search">
+                <div class="nav-search-item">
+                    <input type="text" name="search" id="searchInput" placeholder="Nhập sản phẩm cần tìm...">
+                    <a href="#" class="search-btn">
+                        <i class="ti-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-cart">
+                    <div id="cart-nav" class="cart-icon">
+                        <i class="ti-shopping-cart"></i>
+                        Giỏ hàng
+                    </div>
+                </div>
+                <div class="nav-login">
+                    <div class="dang-nhap">
+                        <i class="ti-user"></i>
+                        Đăng Nhập
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <i class="ti-menu"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gird cart-form">
+        <div class="grid wide">
+            <div class="cart-form-block">
+                <div class="cart-block-heading">
+                    <h2 class="cart-form-title">Giỏ hàng của bạn</h2>
+                    <div class="form-close-btn">
+                        <i class="ti-close"></i>
+                    </div>
+                </div>
+                <div class="cart-block-list">                    
+                    
+                </div>
+                <div class="cart-block-footer">
+                    <div class="cart-footer-total">
+                        <h3>Tổng tiền:
+                            <h3 id="cart-total-money">0</h3>                            
+                        </h3>
+                    </div>
+                    <div class="cart-footer-pay">
+                        <a href="#" class="pay-btn">
+                            Thanh toán
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid slide">
+        <div class="grid wide">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./img/slide/1sl.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="./img/slide/2sl.jpg" style="width:100%">
+            </div>       
+        </div>
+                           
+        </div>
+    </div>
+
+    <div class="grid products">
+        <div class="grid wide">
+           <div class="product-title">
+               <h1>Các sản phẩm bán chạy</h1>             
+           </div>
+
+            <div id="productList" class="row product-list">    
+            </div>
+        </div>
+    </div>
+
+    <div class="grid bottom">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-4 c-12">
+                    <h3 class="bottom-title">HỖ TRỢ KHÁCH HÀNG</h3>
+                    <p class="title-sub">Hướng dẫn mua hàng</p>
+                    <p class="title-sub">Lấy link sản phẩm</p>
+                    <p class="title-sub">Phương thức vận chuyển</p>
+                    <p class="title-sub">Liên hệ tổng đài</p>
+                    <p class="title-sub">Chính sách đổi trả</p>
+
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <h3 class="bottom-title">VỀ BILI SHOP</h3>
+                    <p class="title-sub">Bán hàng doanh nghiệp</p>
+                    <p class="title-sub">Tuyển Dụng</p>
+                    <p class="title-sub">Chính sách bảo mật thông tin cá nhân</p>
+                    
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <h3 class="bottom-title">HỢP TÁC VÀ LIÊN KẾT</h3>
+                    <p class="title-sub">Quy chế hoạt động của Shop</p>
+                    <p class="title-sub">Đóng góp sản phẩm</p>
+                    <p class="title-sub">Phương thức vận chuyển</p>
+                    <p class="title-sub">Liên hệ tổng đài</p>
+                    <p class="title-sub">Chính sách đổi trả</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
